@@ -1,0 +1,23 @@
+{
+    "name": "ChatGPT PDF Exporter",
+    "description": "Export ChatGPT conversations to PDF with one click.",
+    "version": "1.0",
+    "manifest_version": 3,
+  
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "downloads"
+    ],
+  
+    "host_permissions": [
+      "https://chat.openai.com/*",
+      "https://chatgpt.com/*"
+    ],
+  
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
+  
